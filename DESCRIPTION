@@ -1,0 +1,21 @@
+Package: UScourtsBankrutcyFilings
+Title: Retrieve or update US Federal Court Bankruptcy Filings
+Version: 0.0.0.9000
+Author: Andre Mikulec
+Maintainer: Andre Mikulec <Andre_Mikulec@Hotmail.com>
+Description: Collect or update US Federal Court Bankruptcy Filings.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    xts (>= 0.11-1)
+Imports:
+    magrittr,
+    tryCatchLog,
+    futile.logger,
+    zoo,
+    rlang,
+    xml2,
+    stringr
+RoxygenNote: 6.1.0.9000
+Suggests: testthat
